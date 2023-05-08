@@ -1,4 +1,4 @@
-# Potencia efectivamente consumida por los usuarios finales
+# Potencia efectivamente consumida por los usuarios finales. Analizamos perdidas
 P_consumida = Array{Float64}(undef, 4, 24)
 demand = JuMP.value.(Pload_rho)
 for rho in ESC
